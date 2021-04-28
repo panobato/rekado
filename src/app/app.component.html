@@ -1,17 +1,40 @@
 <mat-sidenav-container>
   <mat-sidenav>Sidenav</mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar>
-      <span>Rekado de Kusina</span>
-    </mat-toolbar>
+    <app-header></app-header>
+    
+    <section fxLayout="column">
+      <header class="label" fxLayout="row" fxLayoutAlign="center center">
+        <h1 class="mat-display-2">Menu</h1>
+      </header>
+      <div fxLayout="column" fxLayout.sm="row wrap" fxLayout.gt-sm="row wrap" fxLayoutAlign.gt-sm="space-around stretch">
+        <article *ngFor="let item of menu" fxLayoutAlign.sm="space-around stretch" fxFlex.sm="100%" fxLayoutAlign.gt-sm="space-around stretch" fxFlex.gt-sm="30%">
+          <mat-card class="mat-elevation-z4" [ngClass.sm]="{'small': true}">
+            <mat-card-header>
+              <mat-card-title>{{item.name}}</mat-card-title>
+              <mat-card-subtitle>{{item.category}}</mat-card-subtitle>        
+            </mat-card-header>
+            <img mat-card-image [src]='"./assets/images/" + item.image' alt="" />
+            <mat-card-content>
+              <p>
+                {{item.description}}
+              </p>                    
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>{{item.price}}</button>
+            </mat-card-actions>
+          </mat-card>        
+        </article>
+      </div>
+    </section>
+
+
+    <!--
     <div>
       <div class="label" fxLayout="row" fxLayoutAlign="center center">
         <h1 class="mat-display-2">Specialties</h1>
       </div>
       <div fxLayout.xs="column" fxLayout.gt-xs="row wrap" fxLayoutAlign.xs="center center" fxLayoutAlign.gt-xs="space-around">
-        <!-- <div>
-          <img src="./assets/images/rekado.jpg" alt="" [ngClass.xs]="{'mobile': true}" />
-        </div> -->
         <mat-card>
           <mat-card-header>
             <mat-card-title>Sisig Bangus</mat-card-title>
@@ -29,12 +52,6 @@
             <button mat-button>$5.00 / SMALL</button>
             <button mat-button>$10.00 / LARGE</button>
           </mat-card-actions>
-  <!--         <mat-card-footer>
-            <mat-list role="list">
-              <mat-list-item role="listitem">Small ..... $5</mat-list-item>
-              <mat-list-item role="listitem">Large ..... $10</mat-list-item>
-            </mat-list>
-          </mat-card-footer> -->
         </mat-card>
         <mat-card>
           <mat-card-header>
@@ -92,6 +109,9 @@
         </mat-card>
       </div>
     </div>
+    -->
+
+    <!--
     <div class="menu">
       <div class="label" fxLayout="row" fxLayoutAlign="center center">
         <h1 class="mat-display-2">Menu</h1>
@@ -185,18 +205,11 @@
         </mat-list>
       </div>
     </div>
+    -->
 
     <router-outlet></router-outlet>
 
-    <footer class="mat-body-2" fxLayout="row" fxLayoutAlign="space-between" fxLayout.xs="column" fxLayoutAlign.xs="center center">
-      <div>
-        Contact Us
-      </div>
-      <div>
-        Copyright &copy; 2021
-        TOYO FOOD GROUP      
-      </div>      
-    </footer>
+    <app-footer></app-footer>
   </mat-sidenav-content>
 </mat-sidenav-container>
 
