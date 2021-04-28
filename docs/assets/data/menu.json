@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Bangus Sisig",
+    "category": "Seafood",
+    "description": "bangus, soy sauce, citrus, margarine, ginger, onion, garlic, egg",
+    "image": "sisigbangus.JPEG",
+    "price": "$15 / PIECE",
+    "note": "",
+    "specialty": "yes"
+  },
+  {
+    "name": "Pork Sisig",
+    "category": "Pork",
+    "description": "pork snout, ears, tongue, liver, soy sauce, citrus, onion, egg",
+    "image": "sisigpork.JPEG",
+    "price": "$70 / TRAY",
+    "note": "liver is optional",
+    "specialty": "yes"
+  },
+  {
+    "name": "Tokwat Baboy",
+    "category": "Pork",
+    "description": "pork belly, ears, tongue, snout, tofu, onion, soy sauce, vinegar, citrus",
+    "image": "tokwatbaboy.JPEG",
+    "price": "$65 / TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Lechon Kawali",
+    "category": "Pork",
+    "description": "Lechon Kawali, boiled with special ingredients. Crispy and juicy",
+    "image": "lechonkawali.JPEG",
+    "price": "$15 / POUND",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Menudo",
+    "category": "Pork",
+    "description": "pork loin, pork liver, marinated with special sauce, ketchup, onion, garlic, bell pepper, potato, carrots, hotdog, raisin",
+    "image": "menudo.JPEG",
+    "price": "$65 / TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Beef Brocolli",
+    "category": "Beef",
+    "description": "beef sirloin, brocolli, carrots, garlic, onion, corn starch, oyster sauce",
+    "image": "beefbrocolli.JPEG",
+    "price": "$65 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Beef with Bell Peppers",
+    "category": "Beef",
+    "description": "beef sirloin, soy sauce, oyster sauce, garlic, onion, red and green bell peppers, corn starch",
+    "image": "beefwithbellpeppers.JPEG",
+    "price": "$65 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Beef Caldereta",
+    "category": "Beef",
+    "description": "beef shanks, tomato sauce, ketchup, liver spread, onion, garlic",
+    "image": "beefcaldereta.JPEG",
+    "price": "$65 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Bicol Express",
+    "category": "Pork",
+    "description": "pork loin, shrimp paste, coconut milk, garlic, onion",
+    "image": "bicolexpress.JPEG",
+    "price": "$60 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Bulalo Steak",
+    "category": "Beef",
+    "description": "beef shanks, cream of mushroom, garlic, mushroom, butter",
+    "image": "bulalosteak.JPG",
+    "price": "$70 / HALF TRAY",
+    "note": "",
+    "specialty": "yes"
+  },
+  {
+    "name": "Chicken Inasal",
+    "category": "Chicken",
+    "description": "chicken, soy sauce, lime soda, ginger, garlic, onion, vinegar, lemon grass, anato",
+    "image": "chickeninasal.JPEG",
+    "price": "$65 / 12 PIECES OF QUARTER",
+    "note": "",
+    "specialty": "yes"
+  },
+  {
+    "name": "Fried Chicken with Gravy",
+    "category": "Chicken",
+    "description": "Fried chicken with gravy, marinated with mix condiments, garlic salt. Crispy and juicy",
+    "image": "friedchickenwithgravy.JPG",
+    "price": "$50 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Kare Kare",
+    "category": "Beef",
+    "description": "Beef cheek, beef tripe, peanut sauce, onion, garlic, anato, and side of shrimp paste",
+    "image": "karekare.JPG",
+    "price": "$65 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Sizzling Chicken",
+    "category": "Chicken",
+    "description": "milk, butter, soy sauce, garlic, onion, corn, carrots, sayote",
+    "image": "sizzlingchicken.JPEG",
+    "price": "$30 / WHOLE CHICKEN",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Chicken Afritada",
+    "category": "Chicken",
+    "description": "tomato sauce, garlic, onion, carrots, bell pepper, potato, green peas",
+    "image": "chickenafritada.JPEG",
+    "price": "$50 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Grilled Squid",
+    "category": "Seafood",
+    "description": "Grilled squid, marinated with soy sauce, citrus, onion, garlic, ginger, tomato",
+    "image": "grilledsquid.JPEG",
+    "price": "$13 / PIECE",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Daing na Bangus",
+    "category": "Seafood",
+    "description": "Marinated with vinegar, salt and pepper, garlic",
+    "image": "daingnabangus.JPG",
+    "price": "$12 / PIECE",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Pancit Palabok",
+    "category": "Noodles",
+    "description": "thin noodles with tinapa, ground pork, shrimp, anato, garlic, onion, chicharon, egg",
+    "image": "pancitpalabok.JPG",
+    "price": "$50 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Pancit Malabon",
+    "category": "Noodles",
+    "description": "thick noodles, tinapa, squid, shrimp, anato, garlic, onion, chicharon, egg",
+    "image": "pancitmalabon.JPEG",
+    "price": "$50 / HALF TRAY",
+    "note": "",
+    "specialty": "yes"
+  },
+  {
+    "name": "Pancit Bihon",
+    "category": "Noodles",
+    "description": "thin noodles, chicken, shrimp, chicken liver, Lechon Kawali, garlic, onion, soy sauce, vegetables",
+    "image": "pancitbihon.JPEG",
+    "price": "$50 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Baked Sushi",
+    "category": "Seafood",
+    "description": "Baked sushi, salmon and shrimp",
+    "image": "bakedsushi.JPEG",
+    "price": "$45 / HALF TRAY",
+    "note": "With 4 packs of seaweeds",
+    "specialty": "no"
+  },
+  {
+    "name": "Fresh Lumpia",
+    "category": "Vegetables",
+    "description": "papaya, carrots, sweet potato, celery, green beans, peanuts, garlic",
+    "image": "freshlumpia.JPEG",
+    "price": "$10 / 3 PIECES",
+    "note": "With 4 packs of seaweeds",
+    "specialty": "yes"
+  },
+  {
+    "name": "Chopsuey",
+    "category": "Vegetables",
+    "description": "shrimp, beef liver, Napa cabbage, carrots, cabbage, red and green bell pepper, cauliflower, snow peas, onion, garlic",
+    "image": "chopsuey.JPEG",
+    "price": "$50 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Shrimp or Chicken Alfredo",
+    "category": "Pasta",
+    "description": "Alfredo sauce, onion, garlic, olive oil, parsley, Parmesan cheese",
+    "image": "shrimporchickenalfredo.JPEG",
+    "price": "$65 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Seafood Marinara",
+    "category": "Pasta",
+    "description": "shrimp, mussel, clams, squid, garlic, onion, parsley, Parmesan cheese",
+    "image": "shrimporchickenalfredo.JPEG",
+    "price": "$70 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Macaroni Salad",
+    "category": "Pasta",
+    "description": "macaroni, chicken, carrots, celery, raisin, onion, mayonnaise, cream",
+    "image": "macaronisalad.JPEG",
+    "price": "$45 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  },
+  {
+    "name": "Goto",
+    "category": "Porridge",
+    "description": "Goto, pork buns, pork stomach, beef tripe, honeycomb, garlic, onion",
+    "image": "goto.JPG",
+    "price": "$80 / 18 QUARTS",
+    "note": "",
+    "specialty": "yes"
+  },
+  {
+    "name": "Beef Mami",
+    "category": "Beef, Soup",
+    "description": "tender beef, tofu, egg, carrots, Napa cabbage, egg noodles, rice noodles, house special broth",
+    "image": "beefmami.JPG",
+    "price": "$100 / 18 QUARTS",
+    "note": "",
+    "specialty": "yes"
+  },
+  {
+    "name": "Fried Rice",
+    "category": "Rice",
+    "description": "fried rice, shrimp, chicken, carrots, green peas, onion, garlic, egg",
+    "image": "friedrice.JPG",
+    "price": "$45 / HALF TRAY",
+    "note": "",
+    "specialty": "no"
+  }
+]
